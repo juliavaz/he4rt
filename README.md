@@ -4,4 +4,4 @@
 
 ## Landing Page com todos os links da comunidade
 
-Para acessar a página use a URL: [```juliavaz.github.io/he4rt```](juliavaz.github.io/he4rt)
+Para acessar a página use a URL: [```juliavaz.github.io/he4rt```](https://juliavaz.github.io/he4rt){:target="_blank"}

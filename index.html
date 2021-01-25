@@ -99,11 +99,17 @@
 			<div class="logo-footer">
 				<a href="https://heartdevs.com">
 					<img src="./img/logo-coracao-cinza.png" width="70px" alt="He4rt logo">
-					<p class="titulo-footer">He4rt Developers © 2020</p>
+					<p id="copyright-footer" class="titulo-footer">He4rt Developers © </p>
 				</a>
 			</div>
 		</div>
 	</footer>
+
+	<script>
+		const year = ' ' + new Date().getFullYear();
+
+		document.getElementById('copyright-footer').innerText += year;
+	</script>
 </body>
 
 </html>

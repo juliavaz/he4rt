@@ -85,6 +85,22 @@ a{
     cursor: pointer;
 }
 
+.blink {
+    animation: blink 2s steps(3, end) infinite;
+}
+
+@keyframes blink {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
 /* iPhone 5/SE */
 @media (max-width: 325px){
     body {
